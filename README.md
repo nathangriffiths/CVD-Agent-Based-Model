@@ -9,7 +9,7 @@ The code has been tested on Mac and Linux using Python3, but is untested on Wind
 * documentation/ - Contains more detail of the algorithms/methods used in the simulation. More details can be found in the paper mentioned above.
 * scenarios/ - Contains the configurations which can be used to run the simulation. By default this contains two example sub-directories, namely baseline_workplaceContacts4 and baseline_workplaceContacts21, with mean workplace close contact sizes of 4 and 21 respectively. These configurations are calibrated to UK data as described in the paper mentioned above. Additional experiment can be added to this directory.
 * results/ - The simulation stores results here. Two files are stored directly by the simulator, namely <config>_all.pkl and <config>_latest.csv which contain summary data for all runs of a given config (i.e., latest run results are appended) and the latest run respectively. To generate a csv of summary data for all runs use process_results.py with a .pkl filename as a argument, which will create <config>_all.pkl.
-* plots/ - network.py, if run with the --plots argument, can generate a plot of the age distribution and friendship degree distribution for the given configuration, with pdf plots of these stored in this folder.
+* plots/ - network.py, if run with the --plots argument, can generate a plot of the age distribution and friendship degree distribution for the given configuration, with pdf plots of these stored in this folder. Note that for the friendship degree distribution some lines in network.py need uncommenting (they are currently commented to reduce memory overhead when the distribution plot is not needed).
 
 To see the possible arguments run spread.py with the -h argument:
 
