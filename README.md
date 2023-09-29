@@ -4,7 +4,7 @@ This repository contains the implementation of an agent-based-model of behaviour
 
 The paper describing the model is under preparation, and if you use our model in your own publications we would appreciate you citing our paper (details to be added here on publication). There is also a webinar describing the model here (see 58:40 onwards): https://www.youtube.com/watch?v=lD6Y1LcjxXE
 
-The code has been tested on Mac and Linux using Python3, but is untested on Windows. The following directory structure is assumed:
+The code has been tested on Mac and Linux using Python3, but is untested on Windows. The following directory structure is assumed (note that you may need to manually create the results and plots directories):
 
 * documentation/ - Contains more detail of the algorithms/methods used in the simulation. More details can be found in the paper mentioned above.
 * scenarios/ - Contains the configurations which can be used to run the simulation. By default this contains two example sub-directories, namely baseline_workplaceContacts4 and baseline_workplaceContacts21, with mean workplace close contact sizes of 4 and 21 respectively. These configurations are calibrated to UK data as described in the paper mentioned above. Additional experiment can be added to this directory.
