@@ -1,0 +1,4 @@
+Relationship,Smoking-0,Smoking-1,Smoking-2,Alcohol-0,Alcohol-1,Alcohol-2,Diet-0,Diet-1,Diet-2,Inactivity-0,Inactivity-1,Inactivity-2
+Spouse,0.554,0.691,0.635,0.316,0.525,0.755,0.331,0.659,0.773,0.472,0.959,0.255
+Household,0.193,0.099,0.497,0.252,0.46,0.785,0.266,0.192,0.522,0.037,0.589,0.373
+Friendship,0.276,0.104,0.359,0.229,0.371,0.749,0.169,0.530,0.594,0.124,0.487,0.496
