@@ -2,7 +2,11 @@
 
 This repository contains the implementation of an agent-based-model of behaviour spread and its impact on cardiovascular disease developed by the project "Modelling the spread of multiple behavioural risk factors for cardiovascular disease in social networks using an agent-based model", N. Griffiths, O. Oyebode and J. Archbold, funded by MRC as part of the Population Health Agent-based Simulation nEtwork (PHASE).
 
-The paper describing the model is under preparation, and if you use our model in your own publications we would appreciate you citing our paper (details to be added here on publication). There is also a webinar describing the model here (see 58:40 onwards): https://www.youtube.com/watch?v=lD6Y1LcjxXE
+The model is described in:
+
+> [J. Archbold, S. Clohessy, D. Herath, N. Griffiths and O. Oyebode, An Agent-Based Model of the Spread of Behavioural Risk-Factors for Cardiovascular Disease in City-Scale Populations, PLoS ONE, 19(5): e0303051, 2024.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0303051)
+
+If you use our model in your own publications we would appreciate you citing our paper. There is also a webinar describing the model here (see 58:40 onwards): https://www.youtube.com/watch?v=lD6Y1LcjxXE
 
 The code has been tested on Mac and Linux using Python3, but is untested on Windows. The following directory structure is assumed (note that you may need to manually create the results and plots directories):
 
